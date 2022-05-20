@@ -14,13 +14,13 @@ const UseStateComponent = () => {
     <>
       <h2> This is the UseStateComponent</h2>
       <div>
-        <div>arr: {arr}</div>
+        <div>arr: {JSON.stringify(arr)}</div>
         <div>str: {str}</div>
         <div>num: {num}</div>
         <div>bol: {bol}</div>
         <div>und: {und}</div>
         <div>nul: {nul}</div>
-        <div>name: {name ? name : "No name yet"}</div>
+        <div>name: {name ? JSON.stringify(name) : "No name yet"}</div>
       </div>
       <div>
         <button
